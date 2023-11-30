@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    font-family: Comic Sans MS, Comic Sans, cursive;;
+    background-color: rgb(230, 230, 230);
+}
+
+.Box{
+    width: 1000px;
+    height: 750px;
+    margin: auto;
+    
+    
+    box-sizing: border-box;
+}
+     
+.Box > header{
+    text-align: center;
+    height: 100px;
+    background-color: plum;
+    padding: auto;
+    box-sizing: content-box;
+    font-size: 4rem;
+}
+
+.Box > nav{
+    text-align: center;
+    height: 50px;
+    background-color: aquamarine;
+    padding: auto;
+    font-size: 2rem;
+}
+
+.Box > p{
+    height: 550px;
+    
+    background-color: grey;
+    text-align: center;
+    color: aliceblue;
+    padding: auto;
+    font-family: Comic Sans MS, Comic Sans, cursive;;
+}
+
+.Box > footer{
+    text-align: center;
+    background-color: blueviolet;
+    padding: auto;
+    height: 50px;
+    font-size: 2rem;
+}
